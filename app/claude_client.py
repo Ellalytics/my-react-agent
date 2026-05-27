@@ -21,7 +21,7 @@ class ClaudeClient:
         try:
             return self.client.messages.create(
                 max_tokens=1028,
-                model="claude-opus-4-20250514",
+                model="claude-opus-4-7",
                 system=self.system_prompt,
                 messages=messages,
                 tools=tools,
